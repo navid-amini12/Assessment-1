@@ -1,0 +1,16 @@
+let score = 0
+let passingScore = 7
+
+for ( let i =  0 ; i  <  8 ; i ++ ){
+if  (score < passingScore){
+console.log("You score is not high enough");
+score ++ ; 
+
+} 
+
+else {
+
+console.log("You have a passing score");
+
+}
+}
