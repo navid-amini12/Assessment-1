@@ -1,0 +1,18 @@
+
+
+
+var  changeMyMind = true ;
+
+if (changeMyMind == true){
+    changeMyMind = false 
+console.log("Change my mind was true, now its set to false ")
+
+
+}
+else {
+
+    changeMyMind = true ;
+    changeMyMind.log("Change my mind was false, now it's set to true");
+
+
+}
