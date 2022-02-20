@@ -25,6 +25,6 @@ console.log("Amy is " + difference  +  " years younger than brit");
 
 else {
 
-console.log("Amy and Brit are of the same age");
+console.log("Amy and Brit are of the same age they were born in the same year ");
 
 }

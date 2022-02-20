@@ -1,0 +1,25 @@
+
+
+let temperature = 55 ; 
+let rain = true; 
+
+if ( temperature >= 80 && rain == true ){
+console.log("Don't forget to wear a T-shirt and grab your umbrella");
+
+
+}
+if ( temperature <  80 &&  temperature > 60 && rain == true  ){
+
+console.log("Dont forget to wear your rain coat and take your umbrella");
+
+}
+if (rain == false ){
+console.log("Wear slippers");
+
+
+}
+
+else {
+
+    console.log("It's raining and the temperature is below 60, take your rain coat");
+}
