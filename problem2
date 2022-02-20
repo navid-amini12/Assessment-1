@@ -1,0 +1,30 @@
+//var a = 2;
+//onsole.log(a);
+
+var amysAge = 29
+var brittanisAge = 34
+var amysBirthYear = 1991
+var brittanisBirthYear = 1986
+
+var difference = brittanisAge - amysAge ; 
+
+if (amysAge > brittanisAge){
+
+console.log("Amy is" + difference +  "Older than brit");
+
+}
+
+
+if (amysAge < brittanisAge){
+
+console.log("Amy is " + difference  +  " years younger than brit");
+
+
+}
+
+
+else {
+
+console.log("Amy and Brit are of the same age");
+
+}
