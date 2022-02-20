@@ -14,5 +14,3 @@ console.log("code has its challengges")
 
 }
 
-
-       
