@@ -1,29 +1,35 @@
+// In this section you will answer some work through problems related to the Software Development Lifecycle
+
+//////////////////PROBLEM 1////////////////////
+/*
+    Reorganize the following steps of the Software Development Lifecycle to be in their correct order.
+*/
+
+// Analysis of Requirements
+// Design
+// Implementation
+// Maintain
+// Planning
+// Testing & Integration
 
 
-for (let i = 100 ; i > 0 ; i--){
+//solution :
+// planning
+// analysis of requirements
+// design
+// implementation
+// testing  $ integration 
+// maintenance 
 
-    let flag = 0 ; 
-       
-       if ( i%3 == 0 ){
-       console.log("fizz");
-       flag++;
-       }
-       if ( i%5 ==0 ){
-   
-           console.log("buzz");
-           flag++;
-       }
-   
-       if ( i%3==0 && i%5==0){
-   
-   console.log("FizzBuzz");
-     flag++;
-       }
-     
-         if ( flag == 0 ){
-   
-           console.log(i);
-         }
-      
-   
-   }
+
+//////////////////PROBLEM 2////////////////////
+/*
+    Create a variable for each of the above steps of the Software Development Lifecycle and set the values of each variable to a definition of the step.
+    The first one is done for you. 
+*/
+const planning = "This is the first step, in which the end goal of the software is determined and defined. Developers typically will see what systems are already in place, and determine what features will need to be added."
+const analysisOfRequirements  = "The second step is analysis of requirements, it invovled figuring out what the customer expects from the program and get it approved." 
+const design  = "Several architenctures are designed to choose from"
+const implementation = "This is where we write the actualy code";
+const testing_Integration = "This stage invovled making sure the product is bug free and runs smoothly without any issues"
+const maintenance = "This stage invovled adding new features and and making sure the product is up to date and meets the customer requirements."

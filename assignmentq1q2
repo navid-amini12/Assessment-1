@@ -1,35 +1,62 @@
-// In this section you will answer some work through problems related to the Software Development Lifecycle
-
 //////////////////PROBLEM 1////////////////////
-/*
-    Reorganize the following steps of the Software Development Lifecycle to be in their correct order.
-*/
+/* Create a copy of the faveColors array called 'colorCopy' using the slice method. */
+console.log("Hi");
+const faveColors = ['red', 'green', 'black']
 
-// Analysis of Requirements
-// Design
-// Implementation
-// Maintain
-// Planning
-// Testing & Integration
+console.log(faveColors.slice(0));
 
-
-//solution :
-// planning
-// analysis of requirements
-// design
-// implementation
-// testing  $ integration 
-// maintenance 
 
 
 //////////////////PROBLEM 2////////////////////
+/* Add a fourth color to the end of the 'colorCopy' array using the push method. */
+
+const fourthColor = faveColors.push('purple');
+
+console.log(faveColors);
+
+
+//////////////////PROBLEM 3////////////////////
 /*
-    Create a variable for each of the above steps of the Software Development Lifecycle and set the values of each variable to a definition of the step.
-    The first one is done for you. 
+  Using an array method, create a new array called 'middleNums' from the 
+  numbers array that will capture only the middle numbers (2, 3, 4).
 */
-const planning = "This is the first step, in which the end goal of the software is determined and defined. Developers typically will see what systems are already in place, and determine what features will need to be added."
-const analysisOfRequirements  = "The second step is analysis of requirements, it invovled figuring out what the customer expects from the program and get it approved." 
-const design  = "Several architenctures are designed to choose from"
-const implementation = "This is where we write the actualy code";
-const testing_Integration = "This stage invovled making sure the product is bug free and runs smoothly without any issues"
-const maintenance = "This stage invovled adding new features and and making sure the product is up to date and meets the customer requirements."
+
+const numbers = [1, 2, 3, 4, 5]
+
+const middleNums = numbers.slice(1,4);
+console.log(middleNums);
+
+
+
+//////////////////PROBLEM 4////////////////////
+/* 
+  Create an empty array called 'answers'.
+  Using a for loop, loop over the array called 'bigOrSmallArray', and check to see if the 
+  number in the array is GREATER than 100. 
+  If it is, push 'big' as a string to the answers array. 
+  If the number is LESS than or EQUAL to 100, push 'small' as a string 
+  to the answers array. 
+*/
+
+const bigOrSmallArray = [1, 99, 42, 69, 102, -10, 159, 352];
+const answer = [];
+
+for ( let a = 0 ; a < bigOrSmallArray.length ; a++ ){
+if ( bigOrSmallArray[a]> 100 ){
+answer.push("Big")
+}
+else {
+
+answer.push("small");
+
+
+
+}}
+
+console.log(answer);
+
+
+
+
+
+
