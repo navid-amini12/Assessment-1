@@ -1,0 +1,29 @@
+
+
+for (let i = 100 ; i > 0 ; i--){
+
+ let flag = 0 ; 
+    
+    if ( i%3 == 0 ){
+    console.log("fizz");
+    flag++;
+    }
+    if ( i%5 ==0 ){
+
+        console.log("buzz");
+        flag++;
+    }
+
+    if ( i%3==0 && i%5==0){
+
+console.log("FizzBuzz");
+  flag++;
+    }
+  
+      if ( flag == 0 ){
+
+        console.log(i);
+      }
+   
+
+}
